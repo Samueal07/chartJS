@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chart{
+    /* this relative is neccsary aling with responsive true in js to reshape graph */
+    position:relative;
+    height: 50vh;
+    width: 50vw;
+}
